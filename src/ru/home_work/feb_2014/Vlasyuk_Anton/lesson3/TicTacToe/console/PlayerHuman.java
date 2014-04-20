@@ -1,6 +1,8 @@
-package ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe;
+package ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console;
 
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI.GCell;
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Cell;
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Field;
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Player;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

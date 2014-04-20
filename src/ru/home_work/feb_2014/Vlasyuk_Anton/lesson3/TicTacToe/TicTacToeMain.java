@@ -1,5 +1,10 @@
 package ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe;
 
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console.GameMechanism;
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Field;
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Player;
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console.PlayerHuman;
+
 public class TicTacToeMain {
 
     public static void main(String[] args) {

@@ -1,10 +1,9 @@
-package ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe;
+package ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console;
 
 
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI.GField;
-
-import java.util.InputMismatchException;
-import java.util.Scanner;
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Field;
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Player;
 
 public class GameMechanism {
     private Field field;

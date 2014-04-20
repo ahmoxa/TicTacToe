@@ -1,14 +1,12 @@
 package ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI;
 
 
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.Cell;
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.Player;
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.PlayerHuman;
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Cell;
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Player;
 
 import java.awt.*;
 import java.awt.Image;
 import javax.swing.*;
-import java.net.URI;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.net.URL;
@@ -16,6 +14,7 @@ import java.net.URL;
 public class GCell extends JComponent implements MouseListener {
 
 //    private Player player;
+    GPlayerHumanInterface controller;
 
     private static final String PLAYER_X = "X";
     private static final String PLAYER_O = "O";
@@ -24,9 +23,10 @@ public class GCell extends JComponent implements MouseListener {
     private Cell cell;
 
 //
-    public GCell(int x, int y, Cell cell, Player player) {
+    public GCell(int x, int y, Cell cell, Player player, GPlayerHumanInterface controller) {
 //        this.player = player;
         this.cell = cell;
+        this.controller = controller;
         setSize(SIZE,SIZE);
         addMouseListener(this);
         setLocation((180*y),(180*x));
@@ -50,20 +50,28 @@ public class GCell extends JComponent implements MouseListener {
             url = getClass().getResource("/res//empty.png");
             image = Toolkit.getDefaultToolkit().getImage(url);
             g2d.drawImage(image,5,5,this);
+            g2d.finalize();
+            super.paint(g);
         }else if (cell.getPlayer().getSymbol() == PLAYER_X && selected) {
             url = getClass().getResource("/res//cross.png");
             image = Toolkit.getDefaultToolkit().getImage(url);
             g2d.drawImage(image,5,5,this);
+            g2d.finalize();
+            super.paint(g);
         } else if (cell.getPlayer().getSymbol() == PLAYER_O && selected) {
             url = getClass().getResource("/res//zero.png");
             image = Toolkit.getDefaultToolkit().getImage(url);
             g2d.drawImage(image,5,5,this);
+            g2d.finalize();
+            super.paint(g);
         }
     }
     @Override
     public void mouseClicked(MouseEvent e) {
-        selected = true;
-        repaint();
+       if (cell.getPlayer() == null) {
+           controller.turnHuman(this.cell);
+           repaint();
+       }
     }
 
     @Override

@@ -1,4 +1,6 @@
-package ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe;
+package ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console;
+
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Player;
 
 /**
  * Created by anton on 27.02.14.
