@@ -18,7 +18,7 @@ public class GCell extends JComponent implements MouseListener {
 
     private static final String PLAYER_X = "X";
     private static final String PLAYER_O = "O";
-    private boolean selected = false;
+    public boolean selected = false;
     public static int SIZE = 140;
     private Cell cell;
 
