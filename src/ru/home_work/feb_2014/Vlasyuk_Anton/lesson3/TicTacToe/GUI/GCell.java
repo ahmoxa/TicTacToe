@@ -19,7 +19,7 @@ public class GCell extends JComponent implements MouseListener {
     private static final String PLAYER_X = "X";
     private static final String PLAYER_O = "O";
     private boolean selected = false;
-    private static int SIZE = 140;
+    public static int SIZE = 140;
     private Cell cell;
 
 //
@@ -27,6 +27,14 @@ public class GCell extends JComponent implements MouseListener {
 //        this.player = player;
         this.cell = cell;
         this.controller = controller;
+        setSize(SIZE,SIZE);
+        addMouseListener(this);
+        setLocation((180*y),(180*x));
+    }
+    //Временный конструктор для тестирования
+    public GCell(int x, int y, Cell cell, Player player) {
+//        this.player = player;
+        this.cell = cell;
         setSize(SIZE,SIZE);
         addMouseListener(this);
         setLocation((180*y),(180*x));
