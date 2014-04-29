@@ -20,7 +20,7 @@ public class GCell extends JComponent implements MouseListener {
     private static final String PLAYER_O = "O";
     public boolean selected = false;
     public static int SIZE = 140;
-    private Cell cell;
+    public Cell cell;
 
 //
     public GCell(int x, int y, Cell cell, Player player, GPlayerHumanInterface controller) {
@@ -77,7 +77,7 @@ public class GCell extends JComponent implements MouseListener {
     @Override
     public void mouseClicked(MouseEvent e) {
        if (cell.getPlayer() == null) {
-           controller.turnHuman(this.cell);
+           controller.turnHuman(this);
            repaint();
        }
     }

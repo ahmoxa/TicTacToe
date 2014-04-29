@@ -26,7 +26,19 @@ public class GField extends JComponent {
        }
         setSize(this.WIDTH, this.HEIGHT);
     }
-       public void paint(Graphics g) {
+// Временный Конструктор для теста
+    public GField(Field field) {
+        this.field = field;
+        for (int i = 0; i < FIELD_SIZE; i++) {
+            for (int j = 0; j < FIELD_SIZE; j++) {
+                Cell cell = field.getCell(i,j);
+                gCells[i][j] = new GCell(i,j,cell,null);
+                this.add(gCells[i][j]);
+            }
+        }
+        setSize(this.WIDTH, this.HEIGHT);
+    }
+    public void paint(Graphics g) {
            URL url;
            Graphics2D g2d = (Graphics2D) g;
            Image image;
@@ -35,8 +47,8 @@ public class GField extends JComponent {
            g2d.drawImage(image,5,5,this);
            g2d.finalize();
            super.paint(g);
-
         }
+
 
 
 }

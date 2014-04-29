@@ -40,11 +40,12 @@ public class GGame implements GPlayerHumanInterface{
     }
 
     @Override
-    public void turnHuman(Cell cell) {
+    public void turnHuman(GCell gCell) {
         if (!(curPlayer.getCurPlayer() instanceof GPlayerHuman)) {
             return;
         }
-            cell.setPlayer(curPlayer.getCurPlayer());
+            gCell.cell.setPlayer(curPlayer.getCurPlayer());
+            gCell.selected = true;
             gField.repaint();
     }
 }
