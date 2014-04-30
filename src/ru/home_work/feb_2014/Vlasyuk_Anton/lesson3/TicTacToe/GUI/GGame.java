@@ -2,11 +2,8 @@ package ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI;
 
 
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console.CurPlayer;
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console.GameMechanism;
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Cell;
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Field;
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Player;
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console.PlayerHuman;
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console.*;
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.*;
 
 import javax.swing.*;
 
@@ -34,7 +31,7 @@ public class GGame implements GPlayerHumanInterface{
 
         Player p1 = new PlayerHuman("X");
         Player p2 = new PlayerHuman("O");
-        GameMechanism game = new GameMechanism(gField,p1,p2);
+        GameMechanism game = new GameMechanismGUI(gField.field,p1,p2,gField);
         game.Start();
 
     }
@@ -47,6 +44,7 @@ public class GGame implements GPlayerHumanInterface{
             gCell.cell.setPlayer(curPlayer.getCurPlayer());
             gCell.selected = true;
             gField.repaint();
+            curPlayer.getSwitchedCurPlayer();
     }
 }
 
