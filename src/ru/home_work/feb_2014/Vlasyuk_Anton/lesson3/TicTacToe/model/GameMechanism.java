@@ -6,31 +6,18 @@ import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console.CurPlayer;
 /**
  * Created by anton on 30.04.14.
  */
-public abstract class GameMechanism {
+public class GameMechanism {
     protected Field field;
-    protected Player p1;
-    protected Player p2;
     protected CurPlayer curPlayer;
 
 
 
 
-    public GameMechanism(Field field, Player p1, Player p2){
+    public GameMechanism(Field field,CurPlayer curPlayer){
         this.field = field;
-        this.p1 = p1;
-        this.p2 = p2;
-        curPlayer = new CurPlayer(p1,p2);
+        this.curPlayer = curPlayer;
+
     }
-
-//    public GameMechanism(GField gField, Player p1, Player p2){
-//        this.field = gField.field;
-//        this.gField = gField;
-//        this.p1 = p1;
-//        this.p2 = p2;
-//    }
-
-
-
     //Проверка на заполненость поля. Заполнено - true, или - false
     public boolean fieldFilled(Field field){
         for (int i = 0; i < field.getFIELD_SIZE(); i++){
@@ -101,24 +88,4 @@ public abstract class GameMechanism {
     }
 
 
-
-    //Запуск игрового процесса
-    public abstract void Start(); //{
-//        curPlayer =  new CurPlayer(p1,p2);
-//        curPlayer.setCurPlayer(p1);
-//        do {
-//            curPlayer.getCurPlayer().Move(field);
-//            for (int i = 0; i < field.getFIELD_SIZE(); i++) {
-//                for (int j = 0; j < field.getFIELD_SIZE(); j++) {
-////                    this.gField.gCells[i][j].repaint();
-//
-//                }
-//            }
-//            this.field.Display();
-//            curPlayer.getSwitchedCurPlayer();
-//
-//        } while (!endGame());
-//
-//        PrintResult();
- //   }
 }

@@ -7,12 +7,13 @@ import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.*;
 
 import javax.swing.*;
 
-public class GGame implements GPlayerHumanInterface{
+public class GGame  implements GPlayerHumanInterface {
     private Field field;
     private GField gField;
-    private Player player1 = new GPlayerHuman("X");
-    private Player player2;
+    private Player player1 = new PlayerAI("X");
+    private Player player2 = new GPlayerHuman("O");
     private CurPlayer curPlayer;
+    GameMechanismGUI game;
 
 
 
@@ -27,13 +28,7 @@ public class GGame implements GPlayerHumanInterface{
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
         frame.getContentPane().add(gField);
-
-
-        Player p1 = new PlayerHuman("X");
-        Player p2 = new PlayerHuman("O");
-        GameMechanism game = new GameMechanismGUI(gField.field,p1,p2,gField);
-        game.Start();
-
+        game = new GameMechanismGUI(gField,curPlayer);
     }
 
     @Override
@@ -43,8 +38,8 @@ public class GGame implements GPlayerHumanInterface{
         }
             gCell.cell.setPlayer(curPlayer.getCurPlayer());
             gCell.selected = true;
-            gField.repaint();
-            curPlayer.getSwitchedCurPlayer();
+            game.AfterTurn();
+
     }
 }
 

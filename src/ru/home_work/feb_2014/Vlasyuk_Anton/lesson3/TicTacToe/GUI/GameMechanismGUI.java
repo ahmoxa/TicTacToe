@@ -12,30 +12,16 @@ public class GameMechanismGUI extends GameMechanism {
     GField gField;
 
 
-    public GameMechanismGUI(Field field, Player p1, Player p2, GField gField) {
-        super(field, p1, p2);
+    public GameMechanismGUI(GField gField, CurPlayer curPlayer) {
+        super(gField.getField(), curPlayer);
         this.gField = gField;
     }
 
-
-
-    @Override
-    public void Start() {
-        curPlayer =  new CurPlayer(p1,p2);
-        curPlayer.setCurPlayer(p1);
-        do {
-            curPlayer.getCurPlayer().Move(field);
-            for (int i = 0; i < field.getFIELD_SIZE(); i++) {
-                for (int j = 0; j < field.getFIELD_SIZE(); j++) {
-                    this.gField.gCells[i][j].repaint();
-                }
-            }
-            this.field.Display();
-            curPlayer.getSwitchedCurPlayer();
-
-        } while (!endGame());
-
-//        PrintResult();
+    public void AfterTurn () {
+        if (endGame()) {
+            System.out.println("Game END!");
+        }
+        curPlayer.getSwitchedCurPlayer();
     }
 }
 

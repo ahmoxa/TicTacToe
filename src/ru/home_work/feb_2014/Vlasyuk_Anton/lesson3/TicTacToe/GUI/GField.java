@@ -48,6 +48,9 @@ public class GField extends JComponent {
            g2d.finalize();
            super.paint(g);
         }
+    public Field getField () {
+        return this.field;
+    }
 
 
 
