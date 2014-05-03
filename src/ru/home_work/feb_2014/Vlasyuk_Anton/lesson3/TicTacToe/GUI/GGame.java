@@ -29,6 +29,8 @@ public class GGame  implements GPlayerHumanInterface {
         frame.setVisible(true);
         frame.getContentPane().add(gField);
         game = new GameMechanismGUI(gField,curPlayer);
+        JLabel label = new JLabel();
+
     }
 
     @Override

@@ -16,4 +16,5 @@ public class GPlayerHuman extends Player{
     public void Move(Field field) {
 
     }
+
 }
