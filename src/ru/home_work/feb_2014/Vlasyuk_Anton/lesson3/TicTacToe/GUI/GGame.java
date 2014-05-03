@@ -10,8 +10,8 @@ import javax.swing.*;
 public class GGame  implements GPlayerHumanInterface {
     private Field field;
     private GField gField;
-    private Player player1 = new PlayerAI("X");
-    private Player player2 = new GPlayerHuman("O");
+    private Player player1 = new GPlayerHuman("X");
+    private Player player2 = new PlayerAI("O");
     private CurPlayer curPlayer;
     GameMechanismGUI game;
 
@@ -30,7 +30,6 @@ public class GGame  implements GPlayerHumanInterface {
         frame.getContentPane().add(gField);
         game = new GameMechanismGUI(gField,curPlayer);
         JLabel label = new JLabel();
-
     }
 
     @Override
@@ -38,10 +37,38 @@ public class GGame  implements GPlayerHumanInterface {
         if (!(curPlayer.getCurPlayer() instanceof GPlayerHuman)) {
             return;
         }
-            gCell.cell.setPlayer(curPlayer.getCurPlayer());
-            gCell.selected = true;
-            game.AfterTurn();
+        gCell.cell.setPlayer(curPlayer.getCurPlayer());
+        gCell.selected = true;
+        game.AfterTurn();
+    }
 
+    public  void turnAI(Field field) {
+        if (!(curPlayer.getCurPlayer() instanceof PlayerAI)) {
+            return;
+        }
+        curPlayer.getCurPlayer().Move(field);
+        game.AfterTurn();
+    }
+
+    public void GameProcces(Field field) {
+        if (curPlayer.getCurPlayer() instanceof PlayerAI){
+            turnAI(field);
+        }
+        if (curPlayer.getCurPlayer() instanceof GPlayerHuman){
+//            turnHuman(gField.gCells[0][0]);
+        }
+
+    }
+
+    public void GO() {
+        while (!(game.endGame())){
+            try {
+                Thread.sleep(50);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            GameProcces(field);
+        }
     }
 }
 

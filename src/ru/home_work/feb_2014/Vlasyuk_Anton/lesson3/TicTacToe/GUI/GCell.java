@@ -60,13 +60,13 @@ public class GCell extends JComponent implements MouseListener {
             g2d.drawImage(image,5,5,this);
             g2d.finalize();
             super.paint(g);
-        }else if (cell.getPlayer().getSymbol() == PLAYER_X && selected) {
+        }else if (cell.getPlayer().getSymbol() == PLAYER_X ) {
             url = getClass().getResource("/res//cross.png");
             image = Toolkit.getDefaultToolkit().getImage(url);
             g2d.drawImage(image,5,5,this);
             g2d.finalize();
             super.paint(g);
-        } else if (cell.getPlayer().getSymbol() == PLAYER_O && selected) {
+        } else if (cell.getPlayer().getSymbol() == PLAYER_O ) {
             url = getClass().getResource("/res//zero.png");
             image = Toolkit.getDefaultToolkit().getImage(url);
             g2d.drawImage(image,5,5,this);

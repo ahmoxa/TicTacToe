@@ -156,8 +156,6 @@ public class PlayerAI extends Player {
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
-
-
         }
 
         Cell move = getCellmove(field);
