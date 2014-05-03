@@ -11,7 +11,7 @@ public class GGame  implements GPlayerHumanInterface {
     private Field field;
     private GField gField;
     private Player player1 = new GPlayerHuman("X");
-    private Player player2 = new PlayerAI("O");
+    private Player player2 = new GPlayerHuman("O");
     private CurPlayer curPlayer;
     GameMechanismGUI game;
 
