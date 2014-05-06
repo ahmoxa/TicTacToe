@@ -32,7 +32,7 @@ public class GCell extends JComponent implements MouseListener {
         setLocation((180*y),(180*x));
     }
     //Временный конструктор для тестирования
-    public GCell(int x, int y, Cell cell, Player player) {
+    public GCell(int x, int y, Cell cell) {
 //        this.player = player;
         this.cell = cell;
         setSize(SIZE,SIZE);

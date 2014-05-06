@@ -6,15 +6,19 @@ import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console.*;
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.*;
 
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class GGame  implements GPlayerHumanInterface {
     private Field field;
     private GField gField;
-    private Player player1 = new GPlayerHuman("X");
-    private Player player2 = new GPlayerHuman("O");
+//    private Player player1 = new GPlayerHuman("X");
+    private Player player1 = new PlayerAI("X");
+//    private Player player2 = new GPlayerHuman("O");
+    private Player player2 = new PlayerAI("O");
     private CurPlayer curPlayer;
     GameMechanismGUI game;
-
 
 
     public GGame() {
@@ -23,13 +27,17 @@ public class GGame  implements GPlayerHumanInterface {
         curPlayer = new CurPlayer(player1, player2);
 
         JFrame frame = new JFrame();
-        frame.setSize(gField.SIZE+40,gField.SIZE+40);
+        frame.setSize(gField.SIZE + 40, gField.SIZE + 80);
+        JButton button = new JButton("Restart!");
+        button.addActionListener(new ButtonClicked());
+        frame.getContentPane().setLayout(new BoxLayout(frame.getContentPane(),BoxLayout.Y_AXIS));
+        frame.getContentPane().add(button);
+        frame.getContentPane().add(gField);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
-        frame.getContentPane().add(gField);
         game = new GameMechanismGUI(gField,curPlayer);
-        JLabel label = new JLabel();
+
     }
 
     @Override
@@ -63,11 +71,21 @@ public class GGame  implements GPlayerHumanInterface {
     public void GO() {
         while (!(game.endGame())){
             try {
-                Thread.sleep(50);
+                Thread.sleep(200);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
             GameProcces(field);
+        }
+    }
+
+    class ButtonClicked implements ActionListener {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            gField.ResetGField();
+            System.out.println(game.endGame());
+
+
         }
     }
 }

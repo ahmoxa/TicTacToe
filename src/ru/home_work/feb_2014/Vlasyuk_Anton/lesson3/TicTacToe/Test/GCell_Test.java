@@ -26,7 +26,7 @@ public class GCell_Test  {
         cell = new Cell();
         Player player = new PlayerHuman("X");
         cell.setPlayer(player);
-        gcell = new GCell(x,y,cell,player);
+        gcell = new GCell(x,y,cell);
         gcell.selected = true;
         JButton button = new JButton("repaintCell");
         button.addActionListener(new ButtonClick());

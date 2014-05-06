@@ -23,7 +23,6 @@ public class GameMechanismGUI extends GameMechanism {
     public void AfterTurn () {
         gField.repaint();
         gField.getField().Display();
-        System.out.println(this.endGame());
         if (endGame()) {
             System.out.println("Game END!");
         }
