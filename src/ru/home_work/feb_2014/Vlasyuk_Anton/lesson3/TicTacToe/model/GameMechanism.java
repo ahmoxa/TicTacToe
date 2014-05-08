@@ -9,6 +9,7 @@ import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console.CurPlayer;
 public class GameMechanism {
     protected Field field;
     protected CurPlayer curPlayer;
+    private boolean endGame;
 
 
 
@@ -16,6 +17,7 @@ public class GameMechanism {
     public GameMechanism(Field field,CurPlayer curPlayer){
         this.field = field;
         this.curPlayer = curPlayer;
+        endGame = false;
 
     }
     //Проверка на заполненость поля. Заполнено - true, или - false
@@ -82,9 +84,13 @@ public class GameMechanism {
 
     public boolean endGame() {
         if (haveWin() != null || fieldFilled(field)) {
-            return true;
+            endGame = true;
+            return endGame;
         }
-        else return false;
+        else {
+            endGame = false;
+            return endGame;
+        }
     }
 
 

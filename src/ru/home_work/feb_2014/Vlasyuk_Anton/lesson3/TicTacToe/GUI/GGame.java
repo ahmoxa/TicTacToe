@@ -27,7 +27,7 @@ public class GGame  implements GPlayerHumanInterface {
         curPlayer = new CurPlayer(player1, player2);
 
         JFrame frame = new JFrame();
-        frame.setSize(gField.SIZE + 40, gField.SIZE + 80);
+        frame.setSize(gField.Size() + 40, gField.Size() + 80);
         JButton button = new JButton("Restart!");
         button.addActionListener(new ButtonClicked());
         frame.getContentPane().setLayout(new BoxLayout(frame.getContentPane(),BoxLayout.Y_AXIS));
@@ -46,7 +46,6 @@ public class GGame  implements GPlayerHumanInterface {
             return;
         }
         gCell.cell.setPlayer(curPlayer.getCurPlayer());
-        gCell.selected = true;
         game.AfterTurn();
     }
 
@@ -59,22 +58,16 @@ public class GGame  implements GPlayerHumanInterface {
     }
 
     public void GameProcces(Field field) {
-        if (curPlayer.getCurPlayer() instanceof PlayerAI){
+        if (game.endGame()){
+            return;
+        }else if (curPlayer.getCurPlayer() instanceof PlayerAI){
             turnAI(field);
-        }
-        if (curPlayer.getCurPlayer() instanceof GPlayerHuman){
-//            turnHuman(gField.gCells[0][0]);
         }
 
     }
 
     public void GO() {
-        while (!(game.endGame())){
-            try {
-                Thread.sleep(200);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+        while (true){
             GameProcces(field);
         }
     }

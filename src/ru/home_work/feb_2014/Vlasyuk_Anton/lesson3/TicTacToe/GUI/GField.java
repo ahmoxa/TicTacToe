@@ -7,12 +7,12 @@ import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Field;
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Cell;
 
 public class GField extends JComponent {
-    public final static int FIELD_SIZE = 3;
-    public final static int SIZE = 512;
+    private final static int FIELD_SIZE = 3;
+    private final static int SIZE = 512;
     private URL imgFileName = getClass().getResource("/res/field.png");
     private Image img = Toolkit.getDefaultToolkit().getImage(imgFileName);
-    public Field field;
-    public GCell[][] gCells = new GCell[FIELD_SIZE][FIELD_SIZE];
+    private Field field;
+    private GCell[][] gCells = new GCell[FIELD_SIZE][FIELD_SIZE];
 
 
     public GField(Field field, GPlayerHumanInterface controller) {
@@ -20,24 +20,13 @@ public class GField extends JComponent {
        for (int i = 0; i < FIELD_SIZE; i++) {
            for (int j = 0; j < FIELD_SIZE; j++) {
                Cell cell = field.getCell(i,j);
-               gCells[i][j] = new GCell(i,j,cell,null, controller);
+               gCells[i][j] = new GCell(i,j,cell,controller);
                this.add(gCells[i][j]);
            }
        }
         setSize(this.WIDTH, this.HEIGHT);
     }
-// Временный Конструктор для теста
-    public GField(Field field) {
-        this.field = field;
-        for (int i = 0; i < FIELD_SIZE; i++) {
-            for (int j = 0; j < FIELD_SIZE; j++) {
-                Cell cell = field.getCell(i,j);
-                gCells[i][j] = new GCell(i,j,cell);
-                this.add(gCells[i][j]);
-            }
-        }
-        setSize(this.WIDTH, this.HEIGHT);
-    }
+
     public void paint(Graphics g) {
            URL url;
            Graphics2D g2d = (Graphics2D) g;
@@ -50,6 +39,9 @@ public class GField extends JComponent {
         }
     public Field getField () {
         return this.field;
+    }
+    public int Size(){
+       return this.SIZE;
     }
 
     public void ResetGField (){
