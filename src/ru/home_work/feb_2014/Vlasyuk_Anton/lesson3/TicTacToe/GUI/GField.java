@@ -27,6 +27,7 @@ public class GField extends JComponent {
         setSize(this.WIDTH, this.HEIGHT);
     }
 
+    @Override
     public void paint(Graphics g) {
            URL url;
            Graphics2D g2d = (Graphics2D) g;
@@ -37,12 +38,14 @@ public class GField extends JComponent {
            g2d.finalize();
            super.paint(g);
         }
+
+
     public Field getField () {
         return this.field;
     }
-    public int Size(){
-       return this.SIZE;
-    }
+
+
+    public int Size(){return this.SIZE; }
 
     public void ResetGField (){
         for (int i = 0; i < FIELD_SIZE; i++) {

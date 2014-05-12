@@ -19,6 +19,7 @@ public class GGame  implements GPlayerHumanInterface {
     private Player player2 = new PlayerAI("O");
     private CurPlayer curPlayer;
     GameMechanismGUI game;
+    JPanel menuPanel;
 
 
     public GGame() {
@@ -26,13 +27,34 @@ public class GGame  implements GPlayerHumanInterface {
         gField = new GField(field, this);
         curPlayer = new CurPlayer(player1, player2);
 
-        JFrame frame = new JFrame();
-        frame.setSize(gField.Size() + 40, gField.Size() + 80);
-        JButton button = new JButton("Restart!");
-        button.addActionListener(new ButtonClicked());
-        frame.getContentPane().setLayout(new BoxLayout(frame.getContentPane(),BoxLayout.Y_AXIS));
-        frame.getContentPane().add(button);
+        JFrame frame = new JFrame("TicTacToe");
+        frame.setSize(gField.Size() + 25, gField.Size() + 75);
+
+        JMenuBar menuBar = new JMenuBar();
+        JMenuItem menuItemFieldReset = new JMenuItem("Restart!");
+        menuItemFieldReset.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                gField.ResetGField();
+                System.out.println(game.endGame());
+            }
+        });
+        menuBar.add(menuItemFieldReset);
+        frame.setJMenuBar(menuBar);
+
+        menuPanel = new JPanel();
+        JButton startButton = new JButton("START!");
+        startButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+//                GO();
+//                menuPanel.setVisible(false);
+            }
+        });
+        menuPanel.add(startButton);
+
         frame.getContentPane().add(gField);
+        frame.add(menuPanel);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
@@ -72,14 +94,6 @@ public class GGame  implements GPlayerHumanInterface {
         }
     }
 
-    class ButtonClicked implements ActionListener {
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            gField.ResetGField();
-            System.out.println(game.endGame());
 
-
-        }
-    }
 }
 

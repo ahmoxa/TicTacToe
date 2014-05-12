@@ -9,6 +9,8 @@ import javax.swing.*;
  */
 public class GTicTacToeMain {
     public static void main(String[] args) {
-        new GGame().GO();
+//        new GGame().GO();
+        new GGame();
     }
+
 }
