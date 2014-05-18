@@ -4,6 +4,7 @@ import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Field;
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.GameMechanism;
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Player;
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console.*;
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.PlayerAI;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -27,9 +28,25 @@ public class GameMechanismGUI extends GameMechanism {
             System.out.println("Game END!");
         }
         curPlayer.getSwitchedCurPlayer();
-
     }
 
+        public  void turnAI() {
+        if (!(curPlayer.getCurPlayer() instanceof PlayerAI)) {
+            return;
+        }
+        curPlayer.getCurPlayer().Move(gField.getField());
+        AfterTurn();
+    }
+
+    public void Start(Field field) {
+        while (true) {
+            if (this.endGame()){
+                return;
+            }else if (curPlayer.getCurPlayer() instanceof PlayerAI){
+                this.turnAI();
+            }
+        }
+    }
 
 }
 

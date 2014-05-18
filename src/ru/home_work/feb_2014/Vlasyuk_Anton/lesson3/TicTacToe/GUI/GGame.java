@@ -10,7 +10,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class GGame  implements GPlayerHumanInterface {
+public class GGame  implements GPlayerHumanInterface, Runnable {
     private Field field;
     private GField gField;
 //    private Player player1 = new GPlayerHuman("X");
@@ -19,17 +19,25 @@ public class GGame  implements GPlayerHumanInterface {
     private Player player2 = new PlayerAI("O");
     private CurPlayer curPlayer;
     GameMechanismGUI game;
-    JPanel menuPanel;
+    Thread  gameThread;
 
 
     public GGame() {
         field = new Field();
         gField = new GField(field, this);
         curPlayer = new CurPlayer(player1, player2);
+        gameThread = new Thread(this);
+        JFrame frame = new JFrame("TicTacToe");
+        frame.setSize(gField.Size() + 25, gField.Size() + 75);
+        initialization();
+    }
 
+    public void initialization() {
+        //FRAME
         JFrame frame = new JFrame("TicTacToe");
         frame.setSize(gField.Size() + 25, gField.Size() + 75);
 
+        //MENUBAR
         JMenuBar menuBar = new JMenuBar();
         JMenuItem menuItemFieldReset = new JMenuItem("Restart!");
         menuItemFieldReset.addActionListener(new ActionListener() {
@@ -39,27 +47,31 @@ public class GGame  implements GPlayerHumanInterface {
                 System.out.println(game.endGame());
             }
         });
-        menuBar.add(menuItemFieldReset);
-        frame.setJMenuBar(menuBar);
-
-        menuPanel = new JPanel();
-        JButton startButton = new JButton("START!");
-        startButton.addActionListener(new ActionListener() {
+        JMenuItem menuItemStart = new JMenuItem("START");
+        menuItemStart.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-//                GO();
-//                menuPanel.setVisible(false);
+                System.out.println(Thread.State.RUNNABLE.compareTo(gameThread.getState()));
+                if ((Thread.State.RUNNABLE.compareTo(gameThread.getState())) == 1){
+                    gameThread.start();
+                }else return;
+
+                System.out.println(Thread.State.RUNNABLE.compareTo(gameThread.getState()));
+
             }
         });
-        menuPanel.add(startButton);
+        menuBar.add(menuItemFieldReset);
+        menuBar.add(menuItemStart);
+        frame.setJMenuBar(menuBar);
 
+        //GFIELD
         frame.getContentPane().add(gField);
-        frame.add(menuPanel);
+
+
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
         game = new GameMechanismGUI(gField,curPlayer);
-
     }
 
     @Override
@@ -71,29 +83,9 @@ public class GGame  implements GPlayerHumanInterface {
         game.AfterTurn();
     }
 
-    public  void turnAI(Field field) {
-        if (!(curPlayer.getCurPlayer() instanceof PlayerAI)) {
-            return;
-        }
-        curPlayer.getCurPlayer().Move(field);
-        game.AfterTurn();
+    @Override
+    public void run() {
+        game.Start(gField.getField());
     }
-
-    public void GameProcces(Field field) {
-        if (game.endGame()){
-            return;
-        }else if (curPlayer.getCurPlayer() instanceof PlayerAI){
-            turnAI(field);
-        }
-
-    }
-
-    public void GO() {
-        while (true){
-            GameProcces(field);
-        }
-    }
-
-
 }
 

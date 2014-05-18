@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c8bbbe6-94f3-4f0f-8d74-087f7d3a3ea0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GField.java" afterPath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GField.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GGame.java" afterPath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GGame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GTicTacToeMain.java" afterPath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GTicTacToeMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GameMechanismGUI.java" afterPath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GameMechanismGUI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TicTacToe.iws" />
@@ -72,13 +71,17 @@
       <file leaf-file-name="GGame.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="11" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.49837133" vertical-offset="459" max-vertical-offset="1666">
-              <folding>
-                <element signature="e#1214#1429#0" expanded="true" />
-                <element signature="e#1418#1419#0" expanded="true" />
-                <element signature="e#1635#1831#0" expanded="true" />
-                <element signature="e#1820#1821#0" expanded="true" />
-              </folding>
+            <state line="58" column="91" selection-start="2233" selection-end="2233" vertical-scroll-proportion="0.6921824" vertical-offset="357" max-vertical-offset="1428">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameMechanismGUI.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GameMechanismGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="23" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="867">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,7 +89,7 @@
       <file leaf-file-name="GTicTacToeMain.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GTicTacToeMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="20" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+            <state line="12" column="20" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -95,11 +98,8 @@
       <file leaf-file-name="GMain.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/gui/GMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="8" selection-start="2263" selection-end="2295" vertical-scroll-proportion="0.0" vertical-offset="550" max-vertical-offset="3706">
-              <folding>
-                <element signature="e#1813#1965#0" expanded="true" />
-                <element signature="e#1954#1955#0" expanded="true" />
-              </folding>
+            <state line="76" column="8" selection-start="2263" selection-end="2295" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="4216">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,12 +107,8 @@
       <file leaf-file-name="GField.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="5" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-              <folding>
-                <element signature="method#GField#0;class#GField#0" expanded="false" />
-                <element signature="method#paint#0;class#GField#0" expanded="false" />
-                <element signature="method#ResetGField#0;class#GField#0" expanded="false" />
-              </folding>
+            <state line="57" column="5" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="1156">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,16 +138,17 @@
         <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/Test/GCell_Test.java" />
         <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/Field.java" />
         <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GCell.java" />
-        <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GameMechanismGUI.java" />
         <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/GameMechanism.java" />
         <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GField.java" />
         <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GTicTacToeMain.java" />
+        <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GameMechanismGUI.java" />
         <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GGame.java" />
+        <option value="$PROJECT_DIR$/src/ru/home_work/february_2014/kozlov_leonid/nac/gui/Menu.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -235,6 +232,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="february_2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TicTacToe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TicTacToe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home_work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="february_2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -412,7 +443,7 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.GTicTacToeMain">
+  <component name="RunManager" selected="Application.NAC_Launcher">
     <configuration default="false" name="NAC_Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.home_work.february_2014.kozlov_leonid.nac.NAC_Launcher" />
       <option name="VM_PARAMETERS" />
@@ -669,9 +700,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.XOLauncherGUI" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TicTacToeMain" />
-        <item index="2" class="java.lang.String" itemvalue="Application.NAC_Launcher" />
+        <item index="0" class="java.lang.String" itemvalue="Application.NAC_Launcher" />
+        <item index="1" class="java.lang.String" itemvalue="Application.XOLauncherGUI" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TicTacToeMain" />
         <item index="3" class="java.lang.String" itemvalue="Application.GGame" />
       </list>
     </recent_temporary>
@@ -685,6 +716,23 @@
     <option name="analysisUIOptions">
       <AnalysisUIOptions />
     </option>
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -715,7 +763,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -724,7 +772,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29926237" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -789,13 +837,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GameMechanismGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/GameMechanism.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="97" column="0" selection-start="3186" selection-end="3186" vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="1751">
@@ -820,12 +861,7 @@
     <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="53" selection-start="1581" selection-end="1581" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="969">
-          <folding>
-            <element signature="e#1214#1429#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
-            <element signature="e#1635#1831#0" expanded="true" />
-            <element signature="e#1820#1821#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -858,12 +894,7 @@
     <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="43" selection-start="1164" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="969">
-          <folding>
-            <element signature="e#1214#1429#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
-            <element signature="e#1635#1831#0" expanded="true" />
-            <element signature="e#1820#1821#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -882,12 +913,7 @@
     <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="0" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="969">
-          <folding>
-            <element signature="e#1214#1429#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
-            <element signature="e#1635#1831#0" expanded="true" />
-            <element signature="e#1820#1821#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -913,11 +939,7 @@
     <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GField.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="26" selection-start="1373" selection-end="1373" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="816">
-          <folding>
-            <element signature="method#GField#0;class#GField#0" expanded="false" />
-            <element signature="method#paint#0;class#GField#0" expanded="false" />
-            <element signature="method#ResetGField#0;class#GField#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1071,13 +1093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GameMechanismGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="538" selection-end="538" vertical-scroll-proportion="0.252443" vertical-offset="83" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/GameMechanism.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="97" column="0" selection-start="3186" selection-end="3186" vertical-scroll-proportion="0.8338762" vertical-offset="1137" max-vertical-offset="1751">
@@ -1094,29 +1109,13 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/awt/Component.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2126" column="21" selection-start="73444" selection-end="73444" vertical-scroll-proportion="0.33224756" vertical-offset="34255" max-vertical-offset="169184">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="5" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <folding>
-            <element signature="method#GField#0;class#GField#0" expanded="false" />
-            <element signature="method#paint#0;class#GField#0" expanded="false" />
-            <element signature="method#ResetGField#0;class#GField#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="2126" column="21" selection-start="73444" selection-end="73444" vertical-scroll-proportion="0.33224756" vertical-offset="34255" max-vertical-offset="169184" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/gui/GMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="8" selection-start="2263" selection-end="2295" vertical-scroll-proportion="0.0" vertical-offset="550" max-vertical-offset="3706">
-          <folding>
-            <element signature="e#1813#1965#0" expanded="true" />
-            <element signature="e#1954#1955#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,15 +1126,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="5" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GameMechanismGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="23" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/kozlov_leonid/nac/gui/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="40" selection-start="580" selection-end="580" vertical-scroll-proportion="-1.7410424" vertical-offset="1358" max-vertical-offset="2278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="11" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.49837133" vertical-offset="459" max-vertical-offset="1666">
-          <folding>
-            <element signature="e#1214#1429#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
-            <element signature="e#1635#1831#0" expanded="true" />
-            <element signature="e#1820#1821#0" expanded="true" />
-          </folding>
+        <state line="58" column="91" selection-start="2233" selection-end="2233" vertical-scroll-proportion="0.6921824" vertical-offset="357" max-vertical-offset="1428">
+          <folding />
         </state>
       </provider>
     </entry>
