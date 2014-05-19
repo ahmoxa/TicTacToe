@@ -22,6 +22,10 @@ public class GGame  implements GPlayerHumanInterface, Runnable {
     Thread  gameThread;
 
 
+    final static String BUTTONPANEL = "MENU";
+    final static String TEXTPANEL = "GAME";
+    JPanel cards;
+
     public GGame() {
         field = new Field();
         gField = new GField(field, this);
@@ -32,46 +36,86 @@ public class GGame  implements GPlayerHumanInterface, Runnable {
         initialization();
     }
 
-    public void initialization() {
-        //FRAME
-        JFrame frame = new JFrame("TicTacToe");
-        frame.setSize(gField.Size() + 25, gField.Size() + 75);
+//    public void initialization() {
+//        //FRAME
+//        JFrame frame = new JFrame("TicTacToe");
+//        frame.setSize(gField.Size() + 25, gField.Size() + 75);
+//
+//        //MENUBAR
+//        JMenuBar menuBar = new JMenuBar();
+//        JMenuItem menuItemFieldReset = new JMenuItem("Restart!");
+//        menuItemFieldReset.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                gField.ResetGField();
+//                System.out.println(game.endGame());
+//            }
+//        });
+//        JMenuItem menuItemStart = new JMenuItem("START");
+//        menuItemStart.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                System.out.println(Thread.State.RUNNABLE.compareTo(gameThread.getState()));
+//                if ((Thread.State.RUNNABLE.compareTo(gameThread.getState())) == 1){
+//                    gameThread.start();
+//                }else return;
+//
+//                System.out.println(Thread.State.RUNNABLE.compareTo(gameThread.getState()));
+//
+//            }
+//        });
+//        menuBar.add(menuItemFieldReset);
+//        menuBar.add(menuItemStart);
+//        frame.setJMenuBar(menuBar);
+//
+//        //GFIELD
+//        frame.getContentPane().add(gField);
+//
+//
+//        frame.setLocationRelativeTo(null);
+//        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        frame.setVisible(true);
+//        game = new GameMechanismGUI(gField,curPlayer);
+//    }
 
-        //MENUBAR
-        JMenuBar menuBar = new JMenuBar();
-        JMenuItem menuItemFieldReset = new JMenuItem("Restart!");
-        menuItemFieldReset.addActionListener(new ActionListener() {
+    public void initialization(){
+        class buttonPressed implements ActionListener {
+
             @Override
             public void actionPerformed(ActionEvent e) {
-                gField.ResetGField();
-                System.out.println(game.endGame());
+                CardLayout cl = (CardLayout)(cards.getLayout());
+//                System.out.println(e.paramString().matches("GAME"));
+                cl.show(cards, TEXTPANEL);
             }
-        });
-        JMenuItem menuItemStart = new JMenuItem("START");
-        menuItemStart.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                System.out.println(Thread.State.RUNNABLE.compareTo(gameThread.getState()));
-                if ((Thread.State.RUNNABLE.compareTo(gameThread.getState())) == 1){
-                    gameThread.start();
-                }else return;
+        }
+        JFrame frame = new JFrame("TiCtAcToE");
+        frame.setSize(800,800);
 
-                System.out.println(Thread.State.RUNNABLE.compareTo(gameThread.getState()));
+        JPanel menu = new JPanel();
+        JLabel menuLab = new JLabel("CARD1");
+        JButton menuBut = new JButton("GAME");
+        menuBut.addActionListener(new buttonPressed());
+        menu.add(menuLab);
+        menu.add(menuBut);
 
-            }
-        });
-        menuBar.add(menuItemFieldReset);
-        menuBar.add(menuItemStart);
-        frame.setJMenuBar(menuBar);
+        JPanel game = new JPanel();
+        JLabel gameLab = new JLabel("CARD2");
+        JButton gameBut = new JButton("MENU");
+        gameBut.addActionListener(new buttonPressed());
+        game.add(gameLab);
+        game.add(gameBut);
 
-        //GFIELD
-        frame.getContentPane().add(gField);
+        cards = new JPanel(new CardLayout());
+        cards.add(menu, BUTTONPANEL);
+        cards.add(game, TEXTPANEL);
 
 
+
+
+        frame.getContentPane().add(cards);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
-        game = new GameMechanismGUI(gField,curPlayer);
     }
 
     @Override
