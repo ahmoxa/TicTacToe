@@ -85,7 +85,7 @@ public class GGame  implements GPlayerHumanInterface, Runnable {
 
     @Override
     public void run() {
-        game.Start(gField.getField());
+        game.Start();
     }
 }
 

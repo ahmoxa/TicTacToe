@@ -30,7 +30,7 @@ public class GameMechanismGUI extends GameMechanism {
         curPlayer.getSwitchedCurPlayer();
     }
 
-        public  void turnAI() {
+    public  void turnAI() {
         if (!(curPlayer.getCurPlayer() instanceof PlayerAI)) {
             return;
         }
@@ -38,7 +38,7 @@ public class GameMechanismGUI extends GameMechanism {
         AfterTurn();
     }
 
-    public void Start(Field field) {
+    public void Start() {
         while (true) {
             if (this.endGame()){
                 return;
