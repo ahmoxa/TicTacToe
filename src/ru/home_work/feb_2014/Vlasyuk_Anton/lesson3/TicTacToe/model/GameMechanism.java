@@ -1,8 +1,5 @@
 package ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model;
 
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI.GField;
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console.CurPlayer;
-
 /**
  * Created by anton on 30.04.14.
  */

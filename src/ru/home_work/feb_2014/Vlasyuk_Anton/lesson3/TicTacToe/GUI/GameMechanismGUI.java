@@ -1,13 +1,6 @@
 package ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI;
 
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Field;
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.GameMechanism;
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Player;
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console.*;
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.PlayerAI;
-
-import java.util.Timer;
-import java.util.TimerTask;
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.*;
 
 /**
  * Created by anton on 30.04.14.

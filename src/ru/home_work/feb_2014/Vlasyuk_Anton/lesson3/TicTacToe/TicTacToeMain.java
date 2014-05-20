@@ -1,7 +1,7 @@
 package ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe;
 
 
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console.CurPlayer;
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.CurPlayer;
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console.GameMechanismConsole;
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.*;
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.console.PlayerHuman;
