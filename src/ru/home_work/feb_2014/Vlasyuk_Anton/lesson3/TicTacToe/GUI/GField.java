@@ -8,7 +8,7 @@ import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Cell;
 
 public class GField extends JComponent {
     private final static int FIELD_SIZE = 3;
-    private final static int SIZE = 512;
+    private final static int SIZE = 612;
     private URL imgFileName = getClass().getResource("/res/field.png");
     private Image img = Toolkit.getDefaultToolkit().getImage(imgFileName);
     private Field field;

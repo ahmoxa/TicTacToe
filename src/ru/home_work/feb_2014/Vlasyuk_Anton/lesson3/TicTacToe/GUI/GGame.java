@@ -2,6 +2,7 @@ package ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI;
 
 
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI.Forms.F_Game;
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI.Forms.F_Menu;
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.CurPlayer;
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.*;
 
@@ -32,21 +33,32 @@ public class GGame  implements GPlayerHumanInterface, Runnable {
         curPlayer = new CurPlayer(player1, player2);
         gameThread = new Thread(this);
         JFrame frame = new JFrame("TicTacToe");
-        frame.setSize(gField.Size() + 25, gField.Size() + 75);
-        JButton but = new JButton("Button1");
-        JButton but2 = new JButton("Button2");
-        JLabel lab = new JLabel("Label 1");
-        JPanel pan = new JPanel();
-        pan.add(but);
-        pan.add(lab);
+        frame.setSize(gField.Size() + 25, gField.Size() + 30);
+
 //        initialization();
-        frame.getContentPane().add(gField);
-        frame.getContentPane().add(new BorderLayout().NORTH, pan);
-        frame.getContentPane().add(new BorderLayout().SOUTH,but2 );
+//        frame.getContentPane().add(gField);
+//        frame.getContentPane().add(new BorderLayout().NORTH, pan);
+//        frame.getContentPane().add(new BorderLayout().SOUTH,but2 );
+        JLabel label = new JLabel("Label1");
+        label.setHorizontalAlignment(JLabel.CENTER);
+        label.setVerticalAlignment(JLabel.CENTER);
+        label.setSize(612, 30);
+
+        gField.add(label);
+        cards = new JPanel(new CardLayout());
+        cards.add(gField, "Game");
+        cards.add(new F_Menu(), "Menu");
+
+
+        frame.getContentPane().add(cards);
+
+
 
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
+
+
 
 
     }

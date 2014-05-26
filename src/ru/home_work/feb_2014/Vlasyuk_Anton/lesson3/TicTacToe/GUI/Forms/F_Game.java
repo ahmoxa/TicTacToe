@@ -12,14 +12,18 @@ public class F_Game {
 
 
     static int frameSize = 512;
-
-
-
-
     public static void addComponentsToPane(Container pane, GField gField){
-        JButton but = new JButton("Button 1");
-        gField.add(but);
+        JButton but = new JButton("Button1");
+        JButton but2 = new JButton("Button2");
+        JLabel lab = new JLabel("Label 1");
+        JPanel pan = new JPanel();
+        pan.add(but);
+        pan.add(lab);
+
         pane.add(gField);
+        pane.add(new BorderLayout().NORTH, pan);
+        pane.add(new BorderLayout().SOUTH, but2);
+
 
 
     }
