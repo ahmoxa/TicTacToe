@@ -25,7 +25,7 @@ public class GCell extends JComponent implements MouseListener {
         this.controller = controller;
         setSize(SIZE,SIZE);
         addMouseListener(this);
-        setLocation((180*y),(180*x));
+        setLocation((y*180+50),(x*180)+80);
     }
 
     public void paint(Graphics g) {

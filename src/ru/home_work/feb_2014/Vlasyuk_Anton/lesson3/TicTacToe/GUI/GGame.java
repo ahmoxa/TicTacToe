@@ -1,7 +1,7 @@
 package ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI;
 
 
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI.Forms.F_Game;
+
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI.Forms.F_Menu;
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.CurPlayer;
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.*;
@@ -12,6 +12,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class GGame  implements GPlayerHumanInterface, Runnable {
+    public static final String MENU_PANEL = "Menu";
+    public static final String GAME_PANEL = "Game";
     private Field field;
     private GField gField;
 //    private Player player1 = new GPlayerHuman("X");
@@ -21,10 +23,10 @@ public class GGame  implements GPlayerHumanInterface, Runnable {
     private CurPlayer curPlayer;
     GameMechanismGUI game;
     Thread  gameThread;
+    F_Menu menu;
 
 
-    final static String BUTTONPANEL = "MENU";
-    final static String TEXTPANEL = "GAME";
+
     JPanel cards;
 
     public GGame() {
@@ -32,22 +34,48 @@ public class GGame  implements GPlayerHumanInterface, Runnable {
         gField = new GField(field, this);
         curPlayer = new CurPlayer(player1, player2);
         gameThread = new Thread(this);
+        game = new GameMechanismGUI(gField,curPlayer);
         JFrame frame = new JFrame("TicTacToe");
-        frame.setSize(gField.Size() + 25, gField.Size() + 30);
+        frame.setSize(gField.Size() + 10, gField.Size() + 50);
 
-//        initialization();
-//        frame.getContentPane().add(gField);
-//        frame.getContentPane().add(new BorderLayout().NORTH, pan);
-//        frame.getContentPane().add(new BorderLayout().SOUTH,but2 );
+        class changeCard implements ActionListener {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                CardLayout cl = (CardLayout)(cards.getLayout());
+                JButton pressedButton = (JButton) e.getSource();
+                cl.show(cards, pressedButton.getText());
+            }
+        }
+
+//        initialization();;
         JLabel label = new JLabel("Label1");
         label.setHorizontalAlignment(JLabel.CENTER);
         label.setVerticalAlignment(JLabel.CENTER);
         label.setSize(612, 30);
 
+        JButton buttonMenu = new JButton(MENU_PANEL);
+        buttonMenu.setSize(100,30);
+        buttonMenu.addActionListener(new changeCard());
+
         gField.add(label);
+        gField.add(buttonMenu);
+
+        menu = new F_Menu();
+        menu.getStartBut().addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println(menu.getPlayerType_1().getActionCommand());
+
+            }
+        });
+
+
+
         cards = new JPanel(new CardLayout());
-        cards.add(gField, "Game");
-        cards.add(new F_Menu(), "Menu");
+        cards.add(gField, GAME_PANEL);
+        cards.add(menu, MENU_PANEL);
+
 
 
         frame.getContentPane().add(cards);
@@ -57,6 +85,7 @@ public class GGame  implements GPlayerHumanInterface, Runnable {
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
+
 
 
 

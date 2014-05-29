@@ -11,7 +11,7 @@ import java.awt.*;
 public class F_Game {
 
 
-    static int frameSize = 512;
+
     public static void addComponentsToPane(Container pane, GField gField){
         JButton but = new JButton("Button1");
         JButton but2 = new JButton("Button2");
