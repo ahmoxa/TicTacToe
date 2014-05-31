@@ -107,8 +107,12 @@ public class F_Menu extends JPanel{
         return playerTextField_2.getText();
     }
 
-    public ButtonModel getPlayerType_1(){
-        return players_1.getSelection();
+    public String getPlayerType_1(){
+        return players_1.getSelection().getActionCommand();
+    }
+
+    public String getPlayerType_2(){
+        return players_2.getSelection().getActionCommand();
     }
 
 

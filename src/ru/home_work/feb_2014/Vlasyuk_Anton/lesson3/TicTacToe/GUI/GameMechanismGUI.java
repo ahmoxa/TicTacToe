@@ -38,6 +38,11 @@ public class GameMechanismGUI extends GameMechanism {
             }else if (curPlayer.getCurPlayer() instanceof PlayerAI){
                 this.turnAI();
             }
+            try{
+                Thread.sleep(5);
+            }catch (InterruptedException ex) {
+
+            }
         }
     }
 
