@@ -2,7 +2,7 @@ package ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI;
 
 
 
-import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI.Forms.F_Menu;
+
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.CurPlayer;
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.*;
 
@@ -12,8 +12,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class GGame  implements GPlayerHumanInterface, Runnable {
-    public static final String MENU_PANEL = "Menu";
-    public static final String GAME_PANEL = "Game";
     private Field field;
     private GField gField;
 //    private Player player1 = new GPlayerHuman("X");
@@ -54,6 +52,7 @@ public class GGame  implements GPlayerHumanInterface, Runnable {
         gField.add(label);
         gField.add(buttonMenu);
         frame.getContentPane().add(gField);
+        frame.setJMenuBar(new MenuBar());
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
