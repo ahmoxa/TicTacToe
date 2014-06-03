@@ -11,9 +11,12 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class GGame  implements GPlayerHumanInterface, Runnable {
+public final class GGame  implements GPlayerHumanInterface, Runnable {
+    private static GGame instance = new GGame();
+
     private Field field;
-    private GField gField;
+    protected GField gField;
+    MenuBar menu = new MenuBar();
 //    private Player player1 = new GPlayerHuman("X");
     private Player player1 = new PlayerAI("X");
 //    private Player player2 = new PlayerAI("O");
@@ -24,7 +27,7 @@ public class GGame  implements GPlayerHumanInterface, Runnable {
     Thread  gameThread;
 
 
-    public GGame() {
+    private GGame() {
         field = new Field();
         gField = new GField(field, this);
         curPlayer = new CurPlayer(player1, player2);
@@ -38,25 +41,22 @@ public class GGame  implements GPlayerHumanInterface, Runnable {
         label.setVerticalAlignment(JLabel.CENTER);
         label.setSize(612, 30);
 
-        JButton buttonMenu = new JButton("Start");
-        buttonMenu.setSize(100,30);
-        buttonMenu.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (!gameThread.isAlive()){
-                    gameThread.start();
-                }
-            }
-        });
 
         gField.add(label);
-        gField.add(buttonMenu);
         frame.getContentPane().add(gField);
-        frame.setJMenuBar(new MenuBar());
+        frame.setJMenuBar(menu);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
     }
+
+
+
+    public static GGame getInstance() {
+        return instance;
+    }
+
+
 
 
 

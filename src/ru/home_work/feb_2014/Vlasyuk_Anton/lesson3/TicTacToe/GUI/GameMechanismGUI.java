@@ -33,17 +33,23 @@ public class GameMechanismGUI extends GameMechanism {
 
     public void Start() {
         while (true) {
-            if (this.endGame()){
-                return;
-            }else if (curPlayer.getCurPlayer() instanceof PlayerAI){
+            if (endGame()) {
+                System.out.println("Wait for restart");
+            }
+            else if (curPlayer.getCurPlayer() instanceof PlayerAI){
                 this.turnAI();
             }
             try{
-                Thread.sleep(5);
+                Thread.sleep(10);
             }catch (InterruptedException ex) {
 
             }
         }
+    }
+
+    public void restart() {
+        gField.ResetGField();
+
     }
 
 }
