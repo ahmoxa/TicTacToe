@@ -17,8 +17,17 @@ public class GameMechanismGUI extends GameMechanism {
     public void AfterTurn () {
         gField.repaint();
         gField.getField().Display();
+        System.out.println("Game END" + endGame());
+        System.out.println("curPlayer " + curPlayer.getCurPlayer().getSymbol());
         if (endGame()) {
-            System.out.println("Game END!");
+            System.out.println("haveWin " + haveWin().getSymbol());
+            String msg = new String();
+            if (haveWin() instanceof Player) {
+                msg = "Winner is Player: " + haveWin().getSymbol();
+            }else {
+                msg = "Tie";
+            }
+            GGame.getInstance().msgLabel.setText(msg);
         }
         curPlayer.getSwitchedCurPlayer();
     }
@@ -34,7 +43,7 @@ public class GameMechanismGUI extends GameMechanism {
     public void Start() {
         while (true) {
             if (endGame()) {
-                System.out.println("Wait for restart");
+
             }
             else if (curPlayer.getCurPlayer() instanceof PlayerAI){
                 this.turnAI();
@@ -49,6 +58,7 @@ public class GameMechanismGUI extends GameMechanism {
 
     public void restart() {
         gField.ResetGField();
+        GGame.getInstance().msgLabel.setText("START");
 
     }
 

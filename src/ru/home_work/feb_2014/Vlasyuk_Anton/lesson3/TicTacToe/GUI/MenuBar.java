@@ -53,6 +53,7 @@ public class MenuBar extends JMenuBar implements ActionListener {
 
         if (menuItem.equals(start)) {
             if (!GGame.getInstance().gameThread.isAlive()){
+                GGame.getInstance().msgLabel.setText("START");
                 GGame.getInstance().gameThread.start();
             }
         }else if (menuItem.equals(restart)){

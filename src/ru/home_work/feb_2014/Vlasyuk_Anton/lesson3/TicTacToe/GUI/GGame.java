@@ -18,13 +18,14 @@ public final class GGame  implements GPlayerHumanInterface, Runnable {
     protected GField gField;
     MenuBar menu = new MenuBar();
 //    private Player player1 = new GPlayerHuman("X");
-    private Player player1 = new PlayerAI("X");
+    private Player player1 = new GPlayerHuman("X");
 //    private Player player2 = new PlayerAI("O");
     private Player player2 = new GPlayerHuman("O");
 
     private CurPlayer curPlayer;
     GameMechanismGUI game;
     Thread  gameThread;
+    JLabel msgLabel;
 
 
     private GGame() {
@@ -36,13 +37,13 @@ public final class GGame  implements GPlayerHumanInterface, Runnable {
         JFrame frame = new JFrame("TicTacToe");
         frame.setSize(gField.Size() + 10, gField.Size() + 50);
 
-        JLabel label = new JLabel("Label1");
-        label.setHorizontalAlignment(JLabel.CENTER);
-        label.setVerticalAlignment(JLabel.CENTER);
-        label.setSize(612, 30);
+        msgLabel = new JLabel();
+        msgLabel.setHorizontalAlignment(JLabel.CENTER);
+        msgLabel.setVerticalAlignment(JLabel.CENTER);
+        msgLabel.setSize(612, 30);
 
 
-        gField.add(label);
+        gField.add(msgLabel);
         frame.getContentPane().add(gField);
         frame.setJMenuBar(menu);
         frame.setLocationRelativeTo(null);
