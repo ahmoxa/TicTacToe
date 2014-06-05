@@ -34,7 +34,7 @@ public class GameMechanism {
             if (field.getCell(i,0).getPlayer() != null &&
                     field.getCell(i,0).getPlayer() == field.getCell(i,1).getPlayer() &&
                     field.getCell(i,0).getPlayer() == field.getCell(i,2).getPlayer()) {
-                return field.getCell(0,i).getPlayer();
+                return field.getCell(i,0).getPlayer();
             }
         }
         return null;
@@ -58,17 +58,16 @@ public class GameMechanism {
                 field.getCell(0,0).getPlayer() == field.getCell(1,1).getPlayer() &&
                 field.getCell(0,0).getPlayer() == field.getCell(2,2).getPlayer()) {
             return  field.getCell(0,0).getPlayer();
-        }
-        if (field.getCell(0,2).getPlayer()!= null &&
+        }else if (field.getCell(0,2).getPlayer()!= null &&
                 field.getCell(0,2).getPlayer() == field.getCell(1,1).getPlayer() &&
                 field.getCell(0,2).getPlayer() == field.getCell(2,0).getPlayer()) {
-            return  field.getCell(0,0).getPlayer();
-        }
-        return null;
+            return  field.getCell(0,2).getPlayer();
+        }else return null;
     }
 
     //Проверка на победителя. Возвращает объект класса Player или null если нет победителя
     public Player haveWin(){
+        Player diagWinner = checkDiagsWin();
         if  (checkColumnsWin() != null) {
             return checkColumnsWin();
         } else if (checkDiagsWin() != null) {

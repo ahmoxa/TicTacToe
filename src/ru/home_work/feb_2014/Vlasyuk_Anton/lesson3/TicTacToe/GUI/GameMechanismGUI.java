@@ -17,11 +17,8 @@ public class GameMechanismGUI extends GameMechanism {
     public void AfterTurn () {
         gField.repaint();
         gField.getField().Display();
-        System.out.println("Game END" + endGame());
-        System.out.println("curPlayer " + curPlayer.getCurPlayer().getSymbol());
         if (endGame()) {
-            System.out.println("haveWin " + haveWin().getSymbol());
-            String msg = new String();
+            String msg;
             if (haveWin() instanceof Player) {
                 msg = "Winner is Player: " + haveWin().getSymbol();
             }else {

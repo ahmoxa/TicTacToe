@@ -17,10 +17,10 @@ public final class GGame  implements GPlayerHumanInterface, Runnable {
     private Field field;
     protected GField gField;
     MenuBar menu = new MenuBar();
-//    private Player player1 = new GPlayerHuman("X");
     private Player player1 = new GPlayerHuman("X");
-//    private Player player2 = new PlayerAI("O");
-    private Player player2 = new GPlayerHuman("O");
+//    private Player player1 = new PlayerAI("X");
+    private Player player2 = new PlayerAI("O");
+//    private Player player2 = new GPlayerHuman("O");
 
     private CurPlayer curPlayer;
     GameMechanismGUI game;
