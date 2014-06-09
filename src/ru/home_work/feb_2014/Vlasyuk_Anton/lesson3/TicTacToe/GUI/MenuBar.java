@@ -52,6 +52,23 @@ public class MenuBar extends JMenuBar implements ActionListener {
         Object menuItem = e.getSource();
 
         if (menuItem.equals(start)) {
+            Object[] possibilities = {"Player vs Player", "Player vs AI"};
+            String s = (String)JOptionPane.showInputDialog(GGame.getInstance().frame,
+                                                           "Choose game type...",
+                                                            "Customized Dialog",
+                                                            JOptionPane.PLAIN_MESSAGE,
+                                                            null,
+                                                            possibilities,
+                                                            "Player vs AI");
+            if (s == "Player vs Player") GGame.getInstance().setPlayer2(GGame.HUMAN);
+            if (s == "Player vs AI") GGame.getInstance().setPlayer2(GGame.AI);
+            System.out.println("GGAME PLAYER_1 - " + GGame.getInstance().player1);
+            System.out.println("GGAME PLAYER_2 - " + GGame.getInstance().player2);
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e1) {
+                e1.printStackTrace();
+            }
             if (!GGame.getInstance().gameThread.isAlive()){
                 GGame.getInstance().msgLabel.setText("START");
                 GGame.getInstance().gameThread.start();
