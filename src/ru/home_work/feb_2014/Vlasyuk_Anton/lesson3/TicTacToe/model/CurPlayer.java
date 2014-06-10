@@ -1,5 +1,6 @@
 package ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model;
 
+import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI.GGame;
 import ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.model.Player;
 
 /**

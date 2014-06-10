@@ -17,16 +17,19 @@ public class GameMechanismGUI extends GameMechanism {
     public void AfterTurn () {
         gField.repaint();
         gField.getField().Display();
+        curPlayer.getSwitchedCurPlayer();
+        GGame.showMsg("Turn is " + curPlayer.getCurPlayer().getName() + " " + curPlayer.getCurPlayer().getSymbol());
         if (endGame()) {
             String msg;
             if (haveWin() instanceof Player) {
                 msg = "Winner is Player: " + haveWin().getSymbol();
+                haveWin().incWinCount();
+                GGame.getInstance().updateScore();
             }else {
                 msg = "Tie";
             }
-            GGame.getInstance().msgLabel.setText(msg);
+            GGame.showMsg(msg);
         }
-        curPlayer.getSwitchedCurPlayer();
     }
 
     public  void turnAI() {
