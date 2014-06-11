@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GTic
+ TacToeMain
+

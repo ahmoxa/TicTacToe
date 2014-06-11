@@ -2,11 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c8bbbe6-94f3-4f0f-8d74-087f7d3a3ea0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/CurPlayer.java" afterPath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/CurPlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GGame.java" afterPath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GGame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GameMechanismGUI.java" afterPath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GameMechanismGUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/MenuBar.java" afterPath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/MenuBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/Player.java" afterPath="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/Player.java" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\Others\CardLayout_Learn.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\Others\GUI_test.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\Others\GridBagLayoutDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\Others\StackOut.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GTicTacToeMain.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\F_Menu.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\GCell.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\GField.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\GGame.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\GPlayerHuman.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\GPlayerHumanInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\GameMechanismGUI.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\MenuBar.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\res\TicTacToe.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\res\cross.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\res\empty.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\res\field.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\res\img\cross.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\res\img\empty.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\res\img\field.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\res\img\select.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\res\img\win.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\res\img\zero.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\GUI\res\zero.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\TicTacToeMain.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\console\GameMechanismConsole.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\console\PlayerHuman.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\model\Cell.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\model\CurPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\model\Field.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\model\GameMechanism.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\model\Player.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\feb_2014\Vlasyuk_Anton\lesson3\TicTacToe\model\PlayerAI.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\XOLauncherConsole.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\XOLauncherGUI.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\console\CMain.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\console\GameHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\console\PlayerHumanConsole.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\gui\GCell.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\gui\GField.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\gui\GMain.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\gui\PlayerHumanGUI.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\gui\PlayerHumanGUIInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\gui\Score.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\model\Cell.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\model\Field.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\model\FieldPos.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\model\Player.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\model\PlayerAi.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\eliseev_mikhail\lesson6\xo\model\TurnSwitcher.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\kozlov_leonid\nac\NAC_Launcher.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\kozlov_leonid\nac\gui\GraphicCell.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\kozlov_leonid\nac\gui\GraphicField.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\kozlov_leonid\nac\gui\Gui.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\kozlov_leonid\nac\gui\Menu.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\kozlov_leonid\nac\logic\Cell.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\kozlov_leonid\nac\logic\Field.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\kozlov_leonid\nac\logic\Judge.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\kozlov_leonid\nac\logic\Line.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\kozlov_leonid\nac\logic\Player.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\kozlov_leonid\nac\logic\PlayerAuto.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\ru\home_work\february_2014\kozlov_leonid\nac\logic\PlayerGUI.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\seabattle_gui_logic_base\ExitMenuListener.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\seabattle_gui_logic_base\GraphicCell.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\seabattle_gui_logic_base\GraphicField.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\seabattle_gui_logic_base\Gui.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\seabattle_gui_logic_base\MyExitListener.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\seabattle_gui_logic_base\MyMouseListener.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\MyProjects\TicTacToe\src\seabattle_gui_logic_base\SeaBattle.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/res/cross.png" afterPath="$PROJECT_DIR$/src/res/cross.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/res/zero.png" afterPath="$PROJECT_DIR$/src/res/zero.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TicTacToe.iws" />
@@ -71,22 +137,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GGame.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GGame.java">
+      <file leaf-file-name="GameMechanismGUI.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToe/GUI/GameMechanismGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="30" selection-start="3404" selection-end="3404" vertical-scroll-proportion="0.7457143" vertical-offset="1365" max-vertical-offset="2448">
-              <folding>
-                <element signature="e#2697#2698#0" expanded="true" />
-                <element signature="e#2728#2729#0" expanded="true" />
-              </folding>
+            <state line="24" column="50" selection-start="684" selection-end="684" vertical-scroll-proportion="0.44" vertical-offset="133" max-vertical-offset="1292">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurPlayer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/CurPlayer.java">
+      <file leaf-file-name="GGame.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToe/GUI/GGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="30" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+            <state line="118" column="104" selection-start="3656" selection-end="3656" vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="2448">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,68 +157,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameMechanismGUI.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GameMechanismGUI.java">
+      <file leaf-file-name="GameMechanism.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToe/model/GameMechanism.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="23" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="1224">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GCell.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GCell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1360">
+            <state line="66" column="18" selection-start="2406" selection-end="2406" vertical-scroll-proportion="0.0" vertical-offset="895" max-vertical-offset="1649">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/Player.java">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToe/model/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+            <state line="10" column="32" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GCell.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToe/GUI/GCell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="62" selection-start="1982" selection-end="1982" vertical-scroll-proportion="0.0" vertical-offset="681" max-vertical-offset="1734">
               <folding>
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PlayerAI.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToe/model/PlayerAI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="110" column="17" selection-start="4664" selection-end="4664" vertical-scroll-proportion="0.0" vertical-offset="2037" max-vertical-offset="2975">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MenuBar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/MenuBar.java">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToe/GUI/MenuBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="41" selection-start="2059" selection-end="2059" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1326">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Field.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/Field.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GField.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GField.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="41" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="1054">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Score.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/gui/Score.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="4" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <folding />
+            <state line="68" column="41" selection-start="2112" selection-end="2112" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1360">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -194,13 +240,31 @@
         <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GCell.java" />
         <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/Forms/F_Menu.java" />
         <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GTicTacToeMain.java" />
-        <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/GameMechanism.java" />
         <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/F_Menu.java" />
         <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/CurPlayer.java" />
         <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/MenuBar.java" />
         <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GameMechanismGUI.java" />
         <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/Player.java" />
         <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GGame.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/GUI/F_Menu.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/model/Cell.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/model/Field.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/model/GameMechanism.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/GUI/GField.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/GUI/GPlayerHumanInterface.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/GUI/MenuBar.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/model/CurPlayer.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/TicTacToeMain.java" />
+        <option value="$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/GameMechanism.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/GUI/GPlayerHuman.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/GTicTacToeMain.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/console/GameMechanismConsole.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/console/PlayerHuman.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/GUI/GCell.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/model/PlayerAI.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/model/Player.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/GUI/GGame.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/GUI/GameMechanismGUI.java" />
       </list>
     </option>
   </component>
@@ -236,7 +300,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,166 +331,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicTacToe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicTacToe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home_work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="february_2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicTacToe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicTacToe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home_work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="february_2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nac" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicTacToe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicTacToe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home_work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="february_2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicTacToe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicTacToe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home_work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="february_2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicTacToe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicTacToe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home_work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="february_2014" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicTacToe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TicTacToe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home_work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TicTacToe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -444,10 +347,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home_work" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -470,10 +369,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home_work" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -498,14 +393,11 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Others" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -525,23 +417,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.GTicTacToeMain">
-    <configuration default="false" name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI.Forms.Menu" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TicTacToe" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.GTicTacToeMain (1)">
     <configuration default="false" name="F_Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.home_work.feb_2014.Vlasyuk_Anton.lesson3.TicTacToe.GUI.Forms.F_Game" />
       <option name="VM_PARAMETERS" />
@@ -606,6 +482,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="GTicTacToeMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TicTacToe.GTicTacToeMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="TicTacToe" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -640,19 +538,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -678,6 +563,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -791,19 +689,19 @@
       <item index="0" class="java.lang.String" itemvalue="Application.GField_Test" />
       <item index="1" class="java.lang.String" itemvalue="Application.GCell_Test" />
       <item index="2" class="java.lang.String" itemvalue="Application.GTicTacToeMain" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Menu" />
-      <item index="4" class="java.lang.String" itemvalue="Application.F_Game" />
-      <item index="5" class="java.lang.String" itemvalue="Application.F_Menu" />
-      <item index="6" class="java.lang.String" itemvalue="Application.NAC_Launcher" />
-      <item index="7" class="java.lang.String" itemvalue="Application.XOLauncherGUI" />
+      <item index="3" class="java.lang.String" itemvalue="Application.F_Game" />
+      <item index="4" class="java.lang.String" itemvalue="Application.F_Menu" />
+      <item index="5" class="java.lang.String" itemvalue="Application.NAC_Launcher" />
+      <item index="6" class="java.lang.String" itemvalue="Application.XOLauncherGUI" />
+      <item index="7" class="java.lang.String" itemvalue="Application.GTicTacToeMain (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.XOLauncherGUI" />
-        <item index="1" class="java.lang.String" itemvalue="Application.NAC_Launcher" />
-        <item index="2" class="java.lang.String" itemvalue="Application.F_Menu" />
-        <item index="3" class="java.lang.String" itemvalue="Application.F_Game" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Menu" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GTicTacToeMain (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.XOLauncherGUI" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NAC_Launcher" />
+        <item index="3" class="java.lang.String" itemvalue="Application.F_Menu" />
+        <item index="4" class="java.lang.String" itemvalue="Application.F_Game" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -868,53 +766,53 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2971549" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29697624" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32665965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3261339" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23498419" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20181043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23434125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2971549" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32665965" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32982087" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23498419" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -940,99 +838,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/gui/GCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding>
-            <element signature="e#2697#2698#0" expanded="true" />
-            <element signature="e#2728#2729#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/gui/GMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding>
-            <element signature="e#2697#2698#0" expanded="true" />
-            <element signature="e#2728#2729#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GTicTacToeMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/kozlov_leonid/nac/gui/GraphicCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/gui/GMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/gui/GField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/gui/GCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/gui/PlayerHumanGUIInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TicTacToe.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/model/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/gui/PlayerHumanGUIInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
@@ -1042,102 +848,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/kozlov_leonid/nac/gui/GraphicCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/gui/GCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/gui/PlayerHumanGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/console/PlayerHuman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GPlayerHuman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/model/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GPlayerHumanInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/TicTacToeMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/XOLauncherGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/gui/GField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Others/CardLayout_Learn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/PlayerAI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Others/GridBagLayoutDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="-2.6671429" vertical-offset="1935" max-vertical-offset="2635" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/kozlov_leonid/nac/gui/Gui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="9" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.51428574" vertical-offset="405" max-vertical-offset="1105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/kozlov_leonid/nac/NAC_Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="46" selection-start="2435" selection-end="2435" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1683">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/kozlov_leonid/nac/gui/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="32" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="2278">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="382" column="29" selection-start="17643" selection-end="17643" vertical-scroll-proportion="0.0" vertical-offset="5890" max-vertical-offset="9129">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
@@ -1149,11 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/F_Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="0" selection-start="2570" selection-end="2570" vertical-scroll-proportion="0.33285713" vertical-offset="1229" max-vertical-offset="2227" />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_51/src.zip!/javax/swing/AbstractButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2017" column="0" selection-start="71674" selection-end="71674" vertical-scroll-proportion="0.3322933" vertical-offset="32665" max-vertical-offset="51408">
@@ -1161,97 +869,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="799">
-          <folding>
-            <element signature="e#593#594#0" expanded="true" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/GUI/res/cross.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GCell.java">
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/model/Cell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1360">
+        <state line="3" column="13" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GField.java">
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/model/Field.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="41" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="1054">
+        <state line="3" column="13" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/GameMechanism.java">
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/TicTacToeMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="191" selection-end="191" vertical-scroll-proportion="0.17" vertical-offset="0" max-vertical-offset="1683">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GTicTacToeMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.21857142" vertical-offset="0" max-vertical-offset="700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/CurPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="30" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+        <state line="4" column="25" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/gui/GMain.java">
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/GUI/GPlayerHumanInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="18" selection-start="5702" selection-end="5712" vertical-scroll-proportion="0.33282906" vertical-offset="2806" max-vertical-offset="3621">
+        <state line="2" column="10" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/february_2014/eliseev_mikhail/lesson6/xo/gui/Score.java">
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/GUI/GPlayerHuman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+        <state line="16" column="0" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GameMechanismGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/GTicTacToeMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="23" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="1224">
+        <state line="12" column="0" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/MenuBar.java">
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/GUI/GField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="41" selection-start="2059" selection-end="2059" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/model/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+        <state line="21" column="46" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1122">
           <folding>
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/home_work/feb_2014/Vlasyuk_Anton/lesson3/TicTacToe/GUI/GGame.java">
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/console/GameMechanismConsole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="30" selection-start="3404" selection-end="3404" vertical-scroll-proportion="0.7457143" vertical-offset="1365" max-vertical-offset="2448">
+        <state line="21" column="18" selection-start="500" selection-end="500" vertical-scroll-proportion="0.522694" vertical-offset="0" max-vertical-offset="683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/GUI/MenuBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="41" selection-start="2112" selection-end="2112" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1360">
           <folding>
-            <element signature="e#2697#2698#0" expanded="true" />
-            <element signature="e#2728#2729#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/model/CurPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="31" selection-start="572" selection-end="572" vertical-scroll-proportion="0.57247436" vertical-offset="0" max-vertical-offset="683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/console/PlayerHuman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="36" selection-start="160" selection-end="160" vertical-scroll-proportion="-0.12445095" vertical-offset="153" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/GUI/GCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="62" selection-start="1982" selection-end="1982" vertical-scroll-proportion="0.0" vertical-offset="681" max-vertical-offset="1734">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/model/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="32" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/model/PlayerAI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="17" selection-start="4664" selection-end="4664" vertical-scroll-proportion="0.0" vertical-offset="2292" max-vertical-offset="2975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/model/GameMechanism.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="18" selection-start="2406" selection-end="2406" vertical-scroll-proportion="0.0" vertical-offset="895" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/GUI/GGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="104" selection-start="3656" selection-end="3656" vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="2448">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/GUI/GameMechanismGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="50" selection-start="684" selection-end="684" vertical-scroll-proportion="0.44" vertical-offset="133" max-vertical-offset="1292">
+          <folding />
         </state>
       </provider>
     </entry>
