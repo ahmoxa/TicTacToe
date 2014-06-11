@@ -20,7 +20,7 @@ public class GameMechanismGUI extends GameMechanism {
         if (endGame()) {
             String msg;
             if (haveWin() != null) {
-                msg = "Winner is Player: " + haveWin().getSymbol();
+                msg = "Winner is : " + haveWin().getName() + " " +  haveWin().getSymbol();
                 haveWin().incWinCount();
                 GGame.getInstance().updateScore();
 

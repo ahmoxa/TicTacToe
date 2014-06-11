@@ -2,11 +2,7 @@ package TicTacToe.GUI;
 
 
 import TicTacToe.model.Cell;
-import com.sun.xml.internal.bind.v2.TODO;
-
-
 import java.awt.*;
-import java.awt.Image;
 import javax.swing.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
@@ -36,26 +32,26 @@ public class GCell extends JComponent implements MouseListener {
         Image image;
         if (cell.getPlayer() == null) {
             if (mouseEnter) {
-                url = getClass().getResource("/res//select.png");
+                url = getClass().getResource("/res/select.png");
                 image = Toolkit.getDefaultToolkit().getImage(url);
                 g2d.drawImage(image,5,5,this);
                 g2d.finalize();
                 super.paint(g);
             } else {
-                url = getClass().getResource("/res//empty.png");
+                url = getClass().getResource("/res/empty.png");
                 image = Toolkit.getDefaultToolkit().getImage(url);
                 g2d.drawImage(image,5,5,this);
                 g2d.finalize();
                 super.paint(g);
             }
         }else if (cell.getPlayer().getSymbol() == PLAYER_X ) {
-            url = getClass().getResource("/res//cross.png");
+            url = getClass().getResource("/res/cross.png");
             image = Toolkit.getDefaultToolkit().getImage(url);
             g2d.drawImage(image,5,5,this);
             g2d.finalize();
             super.paint(g);
         } else if (cell.getPlayer().getSymbol() == PLAYER_O ) {
-            url = getClass().getResource("/res//zero.png");
+            url = getClass().getResource("/res/zero.png");
             image = Toolkit.getDefaultToolkit().getImage(url);
             g2d.drawImage(image,5,5,this);
             g2d.finalize();
